@@ -75,6 +75,7 @@ Now I've came across yet another error: apparently the `libXnDDK.so` library was
     cd ../../../Bin
     tar -xf SensorKinect093-Bin-Linux-x64-v5.1.2.1.tar.bz2 -C . --strip-components=2 Sensor-Bin-Linux-x64-v5.1.2.1/Lib/libXnDDK.so # extract only libXnDDK.so to the current directory
     cp libXnDDK.so /usr/lib/
+    cd ../Platform/Linux/CreateRedist
     ./RedistMaker
 
 Now install the drivers using the `install.sh` script.
