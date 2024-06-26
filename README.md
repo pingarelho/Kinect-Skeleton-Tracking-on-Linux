@@ -12,7 +12,7 @@ I'm using Arch Linux, but you should be able to follow the process regardless of
 
 You'll have to make your own cable or buy an adapter to connect the Xbox 360 Kinect to your computer.
 
-<img src="https://obrazki.elektroda.pl/1400543500_1515105121.png" width="325">
+<img src="wiring_diagram.png" width="325">
 
 Source: [user DriverMSG on elektroda.com forums](https://www.elektroda.com/rtvforum/topic3415887.html).
 
