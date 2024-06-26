@@ -49,6 +49,7 @@ Even so, I couldn't get the binaries to compile with a modern version of `gcc`, 
 
     ln -s $(which gcc-5) /usr/local/bin/gcc
     ln -s $(which g++-5) /usr/local/bin/g++
+    hash -r
 
 One more symbolic link was needed for the compiler to work: from `/usr/lib/libmpfr.so.6` to `/usr/lib/libmpfr.so.4`. Apparently, this has to do with [the fact that `libmpfr.so.4` is no longer supplied with the x86_64 version of `gcc`](https://stackoverflow.com/a/51307924) (from what I could gather, but don't quote me on that).
 
@@ -100,6 +101,7 @@ That said, if you've got this far without any of the scripts and compilers retur
 You may want to erase the `gcc`, `g++` and `libmpfr.so.4` symbolic links.
 
     rm /usr/local/bin/gcc /usr/local/bin/g++ /usr/lib/libmpfr.so.4
+    hash -r
 
 ### OSCeleton
 
