@@ -84,7 +84,7 @@ Now install the drivers using the `install.sh` script.
     cd ../Redist/Sensor-Bin-Linux-x64-v5.1.2.1
     ./install.sh
 
-Next, you will need NiTE, "an SDK for joint tracking with the Microsoft Kinect". With NiTE, it should be as simple as cloning [the github repository of a cached version of the software](https://github.com/arnaud-ramey/NITE-Bin-Dev-Linux-v1.5.2.23) - since PrimeSense was bought by Apple in 2013 - and using the `install.sh` script.
+Next, you will need NiTE, "an SDK for joint tracking with the Microsoft Kinect". With NiTE, it should be as simple as cloning [the github repository of a cached version of the software](https://github.com/arnaud-ramey/NITE-Bin-Dev-Linux-v1.5.2.23) - since PrimeSense was bought by Apple in 2013 - and install it using the `install.sh` script.
 
     cd ../../../../../ # back to the main folder
     git clone https://github.com/arnaud-ramey/NITE-Bin-Dev-Linux-v1.5.2.23.git
